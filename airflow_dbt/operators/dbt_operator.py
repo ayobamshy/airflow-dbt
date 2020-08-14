@@ -7,6 +7,7 @@ class DbtBaseOperator(BaseOperator):
     """
     Base dbt operator
     All other dbt operators are derived from this operator.
+
     :param profiles_dir: If set, passed as the `--profiles-dir` argument to the `dbt` command
     :type profiles_dir: str
     :param target: If set, passed as the `--target` argument to the `dbt` command
